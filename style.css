@@ -216,7 +216,7 @@ nav{
         display: flex;
     }
     .menu-items ul li{
-        width: 7rem;
+       max-width: 8rem;
         line-height: var(--nav-height);
     }
     .register{
@@ -286,6 +286,9 @@ nav{
         line-height: 3rem;
         margin-bottom: -3rem;
     }
+    .menu-items li{
+        margin-left: .5rem;
+    }
 }
 ul li:hover{
     cursor: pointer;
@@ -304,4 +307,8 @@ ul li:hover{
 }
 .transform-rotate{
     transform: rotate(180deg);
+}
+.li-container p{
+    padding-left: .5rem;
+    display: inline-block;
 }

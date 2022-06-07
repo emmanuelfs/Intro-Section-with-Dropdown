@@ -1,114 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css"/>
 
-    <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  </head>
-  <body>
-    <nav class="flex">
-      <div class="logo">
-        <img src="images/logo.svg" alt="SNAP Logo" class="logo-img" />
-      </div>
-      <div class="menu flex">
-        <div class="menu-items">
-          <ul class="">
-            <li id="features">Features <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow pointing down to expand list"
-              class="down-arrow"
-            />         
-            <ul class="features-ul">
-              <div class="li-container">
-                <img src="images/icon-todo.svg" alt="Todo list icon" />
-                <li>Todo List</li>
-              </div>
-              <div class="li-container">
-                <img src="images/icon-calendar.svg" alt="Todo list icon" />
-                <li>Calendar</li>
-              </div>
-              <div class="li-container">
-                <img src="images/icon-reminders.svg" alt="Todo list icon" />
-              <li>Reminders</li>
-              </div>
-              <div class="li-container">
-                <img src="images/icon-planning.svg" alt="Todo list icon" />
-                <li>Planning</li>
-              </div>
-            </ul></li>   
-            <li id="company">Company <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow pointing down to expand list"
-              class="down-arrow"
-            />            
-            <ul class="company">
-              <li>History</li>
-              <li>Our Team</li>
-              <li>Blog</li>
-            </ul></li>
-            <li>Careers</li>
-            <li>About</li>
-          </ul>
-        <div class="register flex">
-          <button>Login</button>
-          <button>Register</button>
-        </div>
-      </div>
-      <button class="menu-button visible">
-        <img src="images/icon-menu.svg" alt="" />
-      </button>
-      <button class="menu-button invisible">
-        <img src="images/icon-close-menu.svg" alt="" />
-      </button>
-    </nav>
-    <main>
-      <div class="main-content">
-        <div class="splash-image">
-          <img
-            src=""
-            alt="Splash image of a dude with a notbook and colors"
-          />
-        </div>
-        <div class="text-area flex">
-          <h1 class="title">Make remote work</h1>
-          <p class="text">
-            Get your team in sync, no matter your location. Streamline
-            processes, create team rituals, and watch productivity soar.
-          </p>
-          <button class="learn-more">Learn more</button>
-          <div class="links">
-            <img src="images/client-databiz.svg" alt="Databiz Logo and link" />
-            <img
-              src="images/client-audiophile.svg"
-              alt="Audiophile Logo and link"
-            />
-            <img src="images/client-meet.svg" alt="Meet Logo and link" />
-            <img src="images/client-maker.svg" alt="Maker Logo and link" />
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"
-  ></script>
-  <script src="index.js"></script>
+        <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    </head>
+    <body>
+        <nav class="flex">
+            <div class="logo">
+                <img src="images/logo.svg" alt="SNAP Logo" class="logo-img"/>
+            </div>
+            <div class="menu flex">
+                <div class="menu-items">
+                    <ul class="">
+                        <li id="features">Features
+                            <img src="images/icon-arrow-down.svg" alt="Arrow pointing down to expand list" class="down-arrow"/>
+                            <ul class="features-ul">
+                                <li class="li-container">
+                                    <img src="images/icon-todo.svg" alt="Todo list icon"/>
+                                    <p>Todo List</p>
+                                </li>
+                                <li class="li-container">
+                                    <img src="images/icon-calendar.svg" alt="Todo list icon"/>
+                                    <p>Calendar</p>
+                                </li>
+                                <li class="li-container">
+                                    <img src="images/icon-reminders.svg" alt="Todo list icon"/>
+                                    <p>Reminders</p>
+                                </li>
+                                <li class="li-container">
+                                    <img src="images/icon-planning.svg" alt="Todo list icon"/>
+                                    <p>Planning</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="company">Company
+                            <img src="images/icon-arrow-down.svg" alt="Arrow pointing down to expand list" class="down-arrow"/>
+                            <ul class="company">
+                                <li>History</li>
+                                <li>Our Team</li>
+                                <li>Blog</li>
+                            </ul>
+                        </li>
+                        <li>Careers</li>
+                        <li>About</li>
+                    </ul>
+                    <div class="register flex">
+                        <button>Login</button>
+                        <button>Register</button>
+                    </div>
+                </div>
+                <button class="menu-button visible">
+                    <img src="images/icon-menu.svg" alt=""/>
+                </button>
+                <button class="menu-button invisible">
+                    <img src="images/icon-close-menu.svg" alt=""/>
+                </button>
+            </nav>
+            <main>
+                <div class="main-content">
+                    <div class="splash-image">
+                        <img src="" alt="Splash image of a dude with a notbook and colors"/>
+                    </div>
+                    <div class="text-area flex">
+                        <h1 class="title">Make remote work</h1>
+                        <p class="text">
+                            Get your team in sync, no matter your location. Streamline
+                                                                                                                                                                                                                processes, create team rituals, and watch productivity soar.
+                        </p>
+                        <button class="learn-more">Learn more</button>
+                        <div class="links">
+                            <img src="images/client-databiz.svg" alt="Databiz Logo and link"/>
+                            <img src="images/client-audiophile.svg" alt="Audiophile Logo and link"/>
+                            <img src="images/client-meet.svg" alt="Meet Logo and link"/>
+                            <img src="images/client-maker.svg" alt="Maker Logo and link"/>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
